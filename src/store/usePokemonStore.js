@@ -18,9 +18,9 @@ function saveCaughtIds(set) {
 
 function loadDarkMode() {
   try {
-    return localStorage.getItem(LS_DARK_KEY) === 'true'
+    return localStorage.getItem(LS_DARK_KEY) !== 'false'
   } catch {
-    return false
+    return true
   }
 }
 
