@@ -36,6 +36,7 @@ export function LocationPanel() {
   const { pokemon, selectedId, clearSelection, caughtIds, toggleCaught } = usePokemonStore()
   const p = pokemon.find(pk => pk.id === selectedId)
   const [encounterOpen, setEncounterOpen] = useState(true)
+  const [learnsetOpen, setLearnsetOpen] = useState(false)
 
   if (!p) return null
 
@@ -110,7 +111,7 @@ export function LocationPanel() {
       </div>
 
       {/* Location list */}
-      <div className="flex-1 overflow-y-auto p-3">
+      <div className="flex-1 overflow-y-auto p-3 space-y-2">
         {/* Encounter Data collapsible section */}
         <div className="rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
           <button
@@ -184,6 +185,77 @@ export function LocationPanel() {
               ) : !evolutionData[p.id] ? (
                 <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">No encounter data found for FRLG.</p>
               ) : null}
+            </div>
+          )}
+        </div>
+
+        {/* Learnset collapsible section */}
+        <div className="rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+          <button
+            onClick={() => setLearnsetOpen(open => !open)}
+            className="w-full flex items-center justify-between px-3 py-2 bg-gray-100 dark:bg-gray-900 text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            aria-expanded={learnsetOpen}
+          >
+            <span>Learnset</span>
+            <span className={`transition-transform duration-200 ${learnsetOpen ? 'rotate-180' : 'rotate-0'}`}>▼</span>
+          </button>
+
+          {learnsetOpen && (
+            <div className="p-2 space-y-3">
+              {/* Level Up moves */}
+              {p.learnset?.levelUp?.length > 0 && (
+                <div>
+                  <div className="text-[10px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide px-1 pb-1">Level Up</div>
+                  <table className="w-full text-xs">
+                    <thead>
+                      <tr className="border-b border-gray-100 dark:border-gray-700">
+                        <th className="text-center px-2 py-1 text-gray-400 dark:text-gray-500 font-medium w-10">Lvl</th>
+                        <th className="text-left px-3 py-1 text-gray-400 dark:text-gray-500 font-medium">Move</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {p.learnset.levelUp.map((entry, i) => (
+                        <tr key={`${entry.level}-${entry.move}-${i}`} className="border-b border-gray-50 dark:border-gray-700 last:border-0">
+                          <td className="text-center px-2 py-1.5 text-gray-400 dark:text-gray-500">{entry.level === 0 ? '—' : entry.level}</td>
+                          <td className="px-3 py-1.5 text-gray-600 dark:text-gray-300">{entry.move}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {/* TM/HM moves */}
+              {p.learnset?.tmhm?.length > 0 && (
+                <div>
+                  <div className="text-[10px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide px-1 pb-1">TM / HM</div>
+                  <div className="flex flex-wrap gap-1 px-1">
+                    {p.learnset.tmhm.map((move) => (
+                      <span key={move} className="text-[10px] px-1.5 py-0.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">
+                        {move}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Move Tutor moves */}
+              {p.learnset?.tutor?.length > 0 && (
+                <div>
+                  <div className="text-[10px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide px-1 pb-1">Move Tutor</div>
+                  <div className="flex flex-wrap gap-1 px-1">
+                    {p.learnset.tutor.map((move) => (
+                      <span key={move} className="text-[10px] px-1.5 py-0.5 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded">
+                        {move}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {!p.learnset?.levelUp?.length && !p.learnset?.tmhm?.length && !p.learnset?.tutor?.length && (
+                <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">No learnset data available.</p>
+              )}
             </div>
           )}
         </div>

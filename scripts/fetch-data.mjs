@@ -67,6 +67,13 @@ const METHOD_DISPLAY = {
   'colosseum-bonus-disc-jpn': 'Event',
 }
 
+function prettifyMoveName(name) {
+  return name
+    .split('-')
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ')
+}
+
 async function fetchPokemon(id, total) {
   process.stdout.write(`  [${String(id).padStart(3)}/${total}] #${id}...`)
 
@@ -147,6 +154,26 @@ async function fetchPokemon(id, total) {
     }
   }
 
+  // Build learnset for FRLG version group
+  const learnset = { levelUp: [], tmhm: [], tutor: [] }
+  for (const moveEntry of data.moves) {
+    for (const vd of moveEntry.version_group_details) {
+      if (vd.version_group.name !== 'firered-leafgreen') continue
+      const moveName = prettifyMoveName(moveEntry.move.name)
+      const method = vd.move_learn_method.name
+      if (method === 'level-up') {
+        learnset.levelUp.push({ move: moveName, level: vd.level_learned_at })
+      } else if (method === 'machine') {
+        if (!learnset.tmhm.includes(moveName)) learnset.tmhm.push(moveName)
+      } else if (method === 'tutor') {
+        if (!learnset.tutor.includes(moveName)) learnset.tutor.push(moveName)
+      }
+    }
+  }
+  learnset.levelUp.sort((a, b) => a.level - b.level)
+  learnset.tmhm.sort()
+  learnset.tutor.sort()
+
   process.stdout.write(` ✓ (${encounters.length} enc)\n`)
 
   return {
@@ -157,6 +184,7 @@ async function fetchPokemon(id, total) {
     cry: data.cries?.legacy || null,
     exclusivity: getVersionExclusivity(id),
     encounters,
+    learnset,
   }
 }
 
