@@ -2,7 +2,7 @@
 
 A Pokédex and encounter tracker for **Pokémon FireRed & LeafGreen**, playable in the browser.
 
-🔗 **Live app:** [ncbjwall11.github.io/FRLG-Tracker](https://ncbjwall11.github.io/FRLG-Tracker/)
+🔗 **Live app:** [juicyjstn.github.io/FRLG-Tracker](https://juicyjstn.github.io/FRLG-Tracker/)
 
 ---
 
