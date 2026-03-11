@@ -180,13 +180,15 @@ async function fetchPokemon(id, total) {
     }
   }
 
-  // Flavor text — prefer FireRed, fall back to LeafGreen
-  const ftEntry =
-    species.flavor_text_entries.find(e => e.language.name === 'en' && e.version.name === 'firered') ||
-    species.flavor_text_entries.find(e => e.language.name === 'en' && e.version.name === 'leafgreen')
-  const flavorText = ftEntry
-    ? ftEntry.flavor_text.replace(/[\f\n\r\u000c]/g, ' ').replace(/\s+/g, ' ').trim()
-    : ''
+  // Flavor text — store both FR and LG entries separately
+  const cleanFT = entry =>
+    entry ? entry.flavor_text.replace(/[\f\n\r\u000c]/g, ' ').replace(/\s+/g, ' ').trim() : null
+  const ftFR = species.flavor_text_entries.find(e => e.language.name === 'en' && e.version.name === 'firered')
+  const ftLG = species.flavor_text_entries.find(e => e.language.name === 'en' && e.version.name === 'leafgreen')
+  const flavorText = {
+    firered:   cleanFT(ftFR) || null,
+    leafgreen: cleanFT(ftLG) || null,
+  }
 
   const eggGroups = species.egg_groups.map(g => g.name)
   const stats = extractStats(data)

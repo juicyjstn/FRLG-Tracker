@@ -27,7 +27,7 @@ Click any Pokémon to open its detail panel:
 - Evolution method shown for Pokémon obtained by evolving
 
 **Pokédex Entry**
-- FireRed flavor text (falls back to LeafGreen if unavailable)
+- Both FireRed and LeafGreen Pokédex flavor text entries, each labeled with a version badge
 - Egg groups
 - Base stat bars (HP, Attack, Defense, Sp. Atk, Sp. Def, Speed) with numeric values and BST total
 

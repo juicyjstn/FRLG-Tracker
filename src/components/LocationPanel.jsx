@@ -310,9 +310,25 @@ export function LocationPanel() {
           <SectionHeader title="Pokédex Entry" open={dexOpen} onToggle={() => setDexOpen(o => !o)} />
           {dexOpen && (
             <div className="p-3 space-y-3">
-              {/* Flavor text */}
-              {p.flavorText ? (
-                <p className="text-xs text-gray-700 dark:text-gray-300 italic leading-relaxed">{p.flavorText}</p>
+              {/* Flavor text — FR and LG entries */}
+              {(p.flavorText?.firered || p.flavorText?.leafgreen) ? (
+                <div className="space-y-2">
+                  {[
+                    { key: 'firered',   label: 'FR', bg: 'bg-red-600' },
+                    { key: 'leafgreen', label: 'LG', bg: 'bg-green-600' },
+                  ].map(({ key, label, bg }) =>
+                    p.flavorText[key] ? (
+                      <div key={key} className="flex gap-2 items-start">
+                        <span className={`${bg} text-white text-[9px] font-bold px-1.5 py-0.5 rounded shrink-0 mt-0.5 leading-none`}>
+                          {label}
+                        </span>
+                        <p className="text-xs text-gray-700 dark:text-gray-300 italic leading-relaxed">
+                          {p.flavorText[key]}
+                        </p>
+                      </div>
+                    ) : null
+                  )}
+                </div>
               ) : (
                 <p className="text-xs text-gray-400 dark:text-gray-500 italic">No Pokédex entry available.</p>
               )}
