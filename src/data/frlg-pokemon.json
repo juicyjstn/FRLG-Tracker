@@ -160,6 +160,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -194,6 +195,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/2.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/2.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -206,6 +208,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/3.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/3.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -217,6 +220,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/4.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -250,6 +254,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/5.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/5.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -262,6 +267,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/6.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -273,6 +279,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/7.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/7.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -306,6 +313,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/8.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/8.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -317,6 +325,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/9.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/9.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -328,6 +337,7 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/10.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -390,6 +400,7 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/11.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/11.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -443,6 +454,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/12.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/12.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -455,6 +467,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/13.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/13.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -518,6 +531,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/14.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/14.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -571,6 +585,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/15.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/15.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -583,6 +598,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/16.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/16.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -756,6 +772,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/17.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/17.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -829,6 +846,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/18.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/18.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -840,6 +858,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/19.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/19.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -972,6 +991,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/20.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/20.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1055,6 +1075,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/21.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/21.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1238,6 +1259,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/22.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/22.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1360,6 +1382,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/23.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/23.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -1432,6 +1455,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/24.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/24.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -1484,6 +1508,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/25.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1526,6 +1551,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/26.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/26.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -1537,6 +1563,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/27.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/27.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -1609,6 +1636,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/28.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/28.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -1661,6 +1689,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/29.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/29.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1723,6 +1752,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/30.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/30.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1776,6 +1806,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/31.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/31.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -1787,6 +1818,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/32.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/32.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1849,6 +1881,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/33.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/33.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1902,6 +1935,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/34.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/34.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -1913,6 +1947,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/35.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/35.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -1945,6 +1980,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/36.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/36.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -1956,6 +1992,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/37.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/37.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -2028,6 +2065,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/38.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/38.ogg",
       "exclusivity": "leafgreen",
       "encounters": [],
       "dex": "kanto"
@@ -2039,6 +2077,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/39.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -2061,6 +2100,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/40.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/40.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -2073,6 +2113,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/41.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/41.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -2356,6 +2397,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/42.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/42.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -2629,6 +2671,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/43.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/43.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -2772,6 +2815,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/44.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/44.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -2865,6 +2909,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/45.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/45.ogg",
       "exclusivity": "firered",
       "encounters": [],
       "dex": "kanto"
@@ -2877,6 +2922,7 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/46.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/46.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -2940,6 +2986,7 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/47.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/47.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -3003,6 +3050,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/48.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/48.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -3096,6 +3144,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/49.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/49.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -3138,6 +3187,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/50.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -3160,6 +3210,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/51.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/51.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -3182,6 +3233,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/52.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/52.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -3324,6 +3376,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/53.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/53.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -3426,6 +3479,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/54.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/54.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -4268,6 +4322,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/55.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/55.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -4390,6 +4445,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/56.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/56.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -4462,6 +4518,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/57.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/57.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -4504,6 +4561,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/58.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/58.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -4576,6 +4634,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/59.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/59.ogg",
       "exclusivity": "firered",
       "encounters": [],
       "dex": "kanto"
@@ -4587,6 +4646,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/60.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/60.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -4879,6 +4939,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/61.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/61.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -5002,6 +5063,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/62.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/62.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -5013,6 +5075,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/63.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/63.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -5045,6 +5108,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/64.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/64.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -5077,6 +5141,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/65.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/65.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -5088,6 +5153,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/66.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/66.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -5190,6 +5256,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/67.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/67.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -5282,6 +5349,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/68.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/68.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -5294,6 +5362,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/69.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/69.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -5437,6 +5506,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/70.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/70.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -5530,6 +5600,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/71.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/71.ogg",
       "exclusivity": "leafgreen",
       "encounters": [],
       "dex": "kanto"
@@ -5542,6 +5613,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/72.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/72.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -5845,6 +5917,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/73.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/73.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -6008,6 +6081,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/74.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/74.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -6291,6 +6365,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/75.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/75.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -6424,6 +6499,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/76.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/76.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -6435,6 +6511,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/77.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/77.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -6467,6 +6544,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/78.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/78.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -6500,6 +6578,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/79.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/79.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7343,6 +7422,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/80.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/80.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7476,6 +7556,7 @@
         "steel"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/81.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/81.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7499,6 +7580,7 @@
         "steel"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/82.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/82.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7552,6 +7634,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/83.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/83.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7576,6 +7659,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/84.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/84.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7639,6 +7723,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/85.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/85.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -7650,6 +7735,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/86.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/86.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7773,6 +7859,7 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/87.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/87.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7855,6 +7942,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/88.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/88.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7917,6 +8005,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/89.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -7969,6 +8058,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/90.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/90.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -8052,6 +8142,7 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/91.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/91.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -8064,6 +8155,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/92.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/92.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -8237,6 +8329,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/93.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/93.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -8410,6 +8503,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/94.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/94.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -8422,6 +8516,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/95.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/95.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -8494,6 +8589,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/96.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/96.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -8526,6 +8622,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/97.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/97.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -8558,6 +8655,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/98.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/98.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9210,6 +9308,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/99.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/99.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9412,6 +9511,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/100.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9444,6 +9544,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/101.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/101.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9497,6 +9598,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/102.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/102.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9560,6 +9662,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/103.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/103.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -9571,6 +9674,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/104.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/104.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9643,6 +9747,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/105.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/105.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9695,6 +9800,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/106.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/106.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9728,6 +9834,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/107.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/107.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9761,6 +9868,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/108.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/108.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -9772,6 +9880,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/109.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/109.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9834,6 +9943,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/110.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/110.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9887,6 +9997,7 @@
         "rock"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/111.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/111.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9920,6 +10031,7 @@
         "rock"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/112.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/112.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -9931,6 +10043,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/113.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/113.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9963,6 +10076,7 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/114.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/114.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -9995,6 +10109,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/115.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/115.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -10027,6 +10142,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/116.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/116.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -10679,6 +10795,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/117.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/117.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -10891,6 +11008,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/118.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/118.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -11133,6 +11251,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/119.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/119.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -11205,6 +11324,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/120.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/120.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -11288,6 +11408,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/121.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/121.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -11299,6 +11420,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/122.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/122.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -11323,6 +11445,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/123.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/123.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -11356,6 +11479,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/124.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/124.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -11379,6 +11503,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/125.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/125.ogg",
       "exclusivity": "firered",
       "encounters": [
         {
@@ -11401,6 +11526,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/126.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/126.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -11423,6 +11549,7 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/127.ogg",
       "exclusivity": "leafgreen",
       "encounters": [
         {
@@ -11455,6 +11582,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/128.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/128.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -11498,6 +11626,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/129.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/129.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -12521,6 +12650,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/130.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/130.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -12974,6 +13104,7 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/131.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/131.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13017,6 +13148,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/132.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/132.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13099,6 +13231,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/133.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/133.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13132,6 +13265,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/134.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/134.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -13143,6 +13277,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/135.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/135.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -13154,6 +13289,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/136.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/136.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -13165,6 +13301,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/137.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/137.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13189,6 +13326,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/138.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/138.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13234,6 +13372,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/139.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/139.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -13246,6 +13385,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/140.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/140.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13291,6 +13431,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/141.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/141.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -13303,6 +13444,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/142.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13347,6 +13489,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/143.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/143.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13380,6 +13523,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/144.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/144.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13414,6 +13558,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/145.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/145.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13448,6 +13593,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/146.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/146.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13481,6 +13627,7 @@
         "dragon"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/147.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/147.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13533,6 +13680,7 @@
         "dragon"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/148.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/148.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13586,6 +13734,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/149.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/149.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "kanto"
@@ -13597,6 +13746,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/150.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/150.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13630,6 +13780,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/151.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/151.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13653,6 +13804,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/161.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13695,6 +13847,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/162.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13707,6 +13860,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/165.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13730,6 +13884,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/166.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13742,6 +13897,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/167.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13765,6 +13921,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/168.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13776,6 +13933,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/175.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13799,6 +13957,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/176.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13811,6 +13970,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/177.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13834,6 +13994,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/178.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13845,6 +14006,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/179.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13867,6 +14029,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/180.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13878,6 +14041,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/181.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13889,6 +14053,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/183.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -13941,6 +14106,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/184.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -13953,6 +14119,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/187.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14036,6 +14203,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/188.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -14048,6 +14216,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/189.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -14059,6 +14228,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/190.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14082,6 +14252,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/193.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14105,6 +14276,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/194.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14158,6 +14330,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/195.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -14170,6 +14343,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/198.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14292,6 +14466,7 @@
         "ghost"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/200.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14414,6 +14589,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/201.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14496,6 +14672,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/202.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14548,6 +14725,7 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/204.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14571,6 +14749,7 @@
         "steel"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/205.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -14582,6 +14761,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/206.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14605,6 +14785,7 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/211.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14708,6 +14889,7 @@
         "rock"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/213.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14731,6 +14913,7 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/214.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14754,6 +14937,7 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/215.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14786,6 +14970,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/216.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/216.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14808,6 +14993,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/217.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -14819,6 +15005,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/218.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14872,6 +15059,7 @@
         "rock"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/219.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14895,6 +15083,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/220.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -14928,6 +15117,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/221.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -14939,6 +15129,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/223.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15041,6 +15232,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/224.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -15053,6 +15245,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/225.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15086,6 +15279,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/226.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15119,6 +15313,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/227.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15142,6 +15337,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/228.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15165,6 +15361,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/229.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -15176,6 +15373,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/231.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15208,6 +15406,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/232.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -15219,6 +15418,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/234.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15241,6 +15441,7 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/235.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15263,6 +15464,7 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/243.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15285,6 +15487,7 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/244.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15307,6 +15510,7 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/245.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15330,6 +15534,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/246.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15353,6 +15558,7 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/247.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -15365,6 +15571,7 @@
         "dark"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/248.ogg",
       "exclusivity": "both",
       "encounters": [],
       "dex": "national"
@@ -15377,6 +15584,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/249.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15400,6 +15608,7 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/250.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15423,6 +15632,7 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/251.ogg",
       "exclusivity": "both",
       "encounters": [
         {
@@ -15445,6 +15655,7 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/386.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/386.ogg",
       "exclusivity": "both",
       "encounters": [
         {

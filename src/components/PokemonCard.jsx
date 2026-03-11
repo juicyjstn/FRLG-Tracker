@@ -16,6 +16,10 @@ export function PokemonCard({ pokemon }) {
 
   function handleCheckbox(e) {
     e.stopPropagation()
+    if (!caught && pokemon.cry) {
+      const audio = new Audio(pokemon.cry)
+      audio.play().catch((error) => console.warn('Failed to play Pokemon cry:', error))
+    }
     toggleCaught(pokemon.id)
   }
 

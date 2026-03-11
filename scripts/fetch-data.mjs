@@ -134,6 +134,7 @@ async function fetchPokemon(id, total) {
     name: data.name,
     types,
     sprite,
+    cry: data.cries?.latest || null,
     exclusivity: getVersionExclusivity(id),
     encounters,
   }
