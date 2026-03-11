@@ -94,7 +94,13 @@ export function LocationPanel() {
           <input
             type="checkbox"
             checked={caught}
-            onChange={() => toggleCaught(p.id)}
+            onChange={() => {
+              if (!caught && p.cry) {
+                const audio = new Audio(p.cry)
+                audio.play().catch((error) => console.warn('Failed to play Pokemon cry:', error))
+              }
+              toggleCaught(p.id)
+            }}
             className="w-4 h-4 accent-green-500"
           />
           <span className={`text-sm font-medium ${caught ? 'text-green-600' : 'text-gray-500 dark:text-gray-400'}`}>
