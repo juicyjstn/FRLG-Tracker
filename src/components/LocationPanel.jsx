@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { usePokemonStore } from '../store/usePokemonStore'
 import { TYPE_COLORS, TYPE_TEXT } from './typeColors'
 import { evolutionData, getEvolutionLabel } from '../data/evolutions'
@@ -34,6 +35,7 @@ function VersionBadge({ versions }) {
 export function LocationPanel() {
   const { pokemon, selectedId, clearSelection, caughtIds, toggleCaught } = usePokemonStore()
   const p = pokemon.find(pk => pk.id === selectedId)
+  const [encounterOpen, setEncounterOpen] = useState(true)
 
   if (!p) return null
 
@@ -114,55 +116,73 @@ export function LocationPanel() {
           </div>
         )}
 
-        {locationGroups.length === 0 && !evolutionData[p.id] ? (
-          <p className="text-sm text-gray-400 dark:text-gray-500 text-center mt-8">No encounter data found for FRLG.</p>
-        ) : locationGroups.length === 0 ? null : (
-          <div className="space-y-3">
-            {locationGroups.map(([location, encs]) => (
-              <div key={location} className="rounded-lg border border-gray-100 dark:border-gray-700 overflow-hidden">
-                <div className="bg-gray-50 dark:bg-gray-900 px-3 py-1.5 text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide">
-                  {location}
+        {/* Encounter Data collapsible section */}
+        <div className="rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+          <button
+            onClick={() => setEncounterOpen(open => !open)}
+            className="w-full flex items-center justify-between px-3 py-2 bg-gray-100 dark:bg-gray-900 text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            aria-expanded={encounterOpen}
+          >
+            <span>Encounter Data</span>
+            <span className={`transition-transform duration-200 ${encounterOpen ? 'rotate-180' : 'rotate-0'}`}>▼</span>
+          </button>
+
+          {encounterOpen && (
+            <div className="p-2 space-y-2">
+              {locationGroups.length === 0 && !evolutionData[p.id] ? (
+                <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">No encounter data found for FRLG.</p>
+              ) : locationGroups.length === 0 ? (
+                <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">Not available in the wild. Obtain through evolution.</p>
+              ) : (
+                <div className="space-y-2">
+                  {locationGroups.map(([location, encs]) => (
+                    <div key={location} className="rounded-lg border border-gray-100 dark:border-gray-700 overflow-hidden">
+                      <div className="bg-gray-50 dark:bg-gray-800 px-3 py-1.5 text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                        {location}
+                      </div>
+                      <table className="w-full text-xs">
+                        <thead>
+                          <tr className="border-b border-gray-100 dark:border-gray-700">
+                            <th className="text-left px-3 py-1 text-gray-400 dark:text-gray-500 font-medium">Method</th>
+                            <th className="text-center px-2 py-1 text-gray-400 dark:text-gray-500 font-medium">Lvl</th>
+                            <th className="text-center px-2 py-1 text-gray-400 dark:text-gray-500 font-medium">%</th>
+                            <th className="text-right px-3 py-1 text-gray-400 dark:text-gray-500 font-medium">Ver</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {encs.map((enc, i) => (
+                            <tr key={i} className="border-b border-gray-50 dark:border-gray-700 last:border-0">
+                              <td className="px-3 py-1.5 text-gray-600 dark:text-gray-300">
+                                <span className="mr-1">{METHOD_ICON[enc.method] || '•'}</span>
+                                {enc.methodDisplay}
+                                {enc.notes && (
+                                  <div className="text-[10px] text-gray-400 dark:text-gray-500 mt-0.5 leading-tight">{enc.notes}</div>
+                                )}
+                              </td>
+                              <td className="text-center px-2 py-1.5 text-gray-600 dark:text-gray-300">
+                                {enc.minLevel != null
+                                  ? enc.minLevel === enc.maxLevel
+                                    ? enc.minLevel
+                                    : `${enc.minLevel}–${enc.maxLevel}`
+                                  : '—'}
+                              </td>
+                              <td className="text-center px-2 py-1.5 text-gray-600 dark:text-gray-300">
+                                {enc.chance != null ? `${enc.chance}%` : '—'}
+                              </td>
+                              <td className="px-3 py-1.5 text-right">
+                                <VersionBadge versions={enc.versions} />
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  ))}
                 </div>
-                <table className="w-full text-xs">
-                  <thead>
-                    <tr className="border-b border-gray-100 dark:border-gray-700">
-                      <th className="text-left px-3 py-1 text-gray-400 dark:text-gray-500 font-medium">Method</th>
-                      <th className="text-center px-2 py-1 text-gray-400 dark:text-gray-500 font-medium">Lvl</th>
-                      <th className="text-center px-2 py-1 text-gray-400 dark:text-gray-500 font-medium">%</th>
-                      <th className="text-right px-3 py-1 text-gray-400 dark:text-gray-500 font-medium">Ver</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {encs.map((enc, i) => (
-                      <tr key={i} className="border-b border-gray-50 dark:border-gray-700 last:border-0">
-                        <td className="px-3 py-1.5 text-gray-600 dark:text-gray-300">
-                          <span className="mr-1">{METHOD_ICON[enc.method] || '•'}</span>
-                          {enc.methodDisplay}
-                          {enc.notes && (
-                            <div className="text-[10px] text-gray-400 dark:text-gray-500 mt-0.5 leading-tight">{enc.notes}</div>
-                          )}
-                        </td>
-                        <td className="text-center px-2 py-1.5 text-gray-600 dark:text-gray-300">
-                          {enc.minLevel != null
-                            ? enc.minLevel === enc.maxLevel
-                              ? enc.minLevel
-                              : `${enc.minLevel}–${enc.maxLevel}`
-                            : '—'}
-                        </td>
-                        <td className="text-center px-2 py-1.5 text-gray-600 dark:text-gray-300">
-                          {enc.chance != null ? `${enc.chance}%` : '—'}
-                        </td>
-                        <td className="px-3 py-1.5 text-right">
-                          <VersionBadge versions={enc.versions} />
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            ))}
-          </div>
-        )}
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
