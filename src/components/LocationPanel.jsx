@@ -135,7 +135,7 @@ export function LocationPanel() {
                   <tbody>
                     {encs.map((enc, i) => (
                       <tr key={i} className="border-b border-gray-50 dark:border-gray-700 last:border-0">
-                        <td className="px-3 py-1.5">
+                        <td className="px-3 py-1.5 text-gray-600 dark:text-gray-300">
                           <span className="mr-1">{METHOD_ICON[enc.method] || '•'}</span>
                           {enc.methodDisplay}
                           {enc.notes && (
