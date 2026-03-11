@@ -105,17 +105,6 @@ export function LocationPanel() {
 
       {/* Location list */}
       <div className="flex-1 overflow-y-auto p-3">
-        {/* Evolution info */}
-        {evolutionData[p.id] && (
-          <div className="mb-3 rounded-lg border border-blue-100 dark:border-blue-900 bg-blue-50 dark:bg-blue-950/40 px-3 py-2 flex items-center gap-2">
-            <span className="text-lg">🔄</span>
-            <div>
-              <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">Obtained by Evolution</p>
-              <p className="text-xs text-blue-600 dark:text-blue-400 mt-0.5">{getEvolutionLabel(evolutionData[p.id])}</p>
-            </div>
-          </div>
-        )}
-
         {/* Encounter Data collapsible section */}
         <div className="rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
           <button
@@ -129,11 +118,18 @@ export function LocationPanel() {
 
           {encounterOpen && (
             <div className="p-2 space-y-2">
-              {locationGroups.length === 0 && !evolutionData[p.id] ? (
-                <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">No encounter data found for FRLG.</p>
-              ) : locationGroups.length === 0 ? (
-                <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">Not available in the wild. Obtain through evolution.</p>
-              ) : (
+              {/* Evolution info */}
+              {evolutionData[p.id] && (
+                <div className="rounded-lg border border-blue-100 dark:border-blue-900 bg-blue-50 dark:bg-blue-950/40 px-3 py-2 flex items-center gap-2">
+                  <span className="text-lg">🔄</span>
+                  <div>
+                    <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">Obtained by Evolution</p>
+                    <p className="text-xs text-blue-600 dark:text-blue-400 mt-0.5">{getEvolutionLabel(evolutionData[p.id])}</p>
+                  </div>
+                </div>
+              )}
+
+              {locationGroups.length > 0 ? (
                 <div className="space-y-2">
                   {locationGroups.map(([location, encs]) => (
                     <div key={location} className="rounded-lg border border-gray-100 dark:border-gray-700 overflow-hidden">
@@ -179,7 +175,9 @@ export function LocationPanel() {
                     </div>
                   ))}
                 </div>
-              )}
+              ) : !evolutionData[p.id] ? (
+                <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">No encounter data found for FRLG.</p>
+              ) : null}
             </div>
           )}
         </div>
