@@ -43,7 +43,7 @@ export default function App() {
       : `${base}cover-both.jpg`
 
   return (
-    <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors ${selectedId ? 'pr-80' : ''}`}>
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
       {/* App header */}
       <header className={`${headerBg} text-white px-4 py-3 flex items-center gap-3 shadow-md`}>
         <img
