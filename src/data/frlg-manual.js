@@ -20,20 +20,20 @@ export const manualData = {
   // --- FOSSILS ---
   138: { // Omanyte (Dome Fossil)
     obtainMethods: [
-      { location: 'Mt. Moon (B2F)', area: 'mt-moon-b2f', method: 'pick-up', methodDisplay: 'Item Pick-up', versions: 'both', notes: "Pick Dome Fossil on Mt. Moon B2F (exclusive choice vs. Helix)" },
-      { location: 'Cinnabar Island Lab', area: 'cinnabar-island', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Revived from Dome Fossil at Cinnabar Lab" },
+      { location: 'Mt Moon (B2F)', area: 'mt-moon-b2f', method: 'pick-up', methodDisplay: 'Item Pick-up', versions: 'both', notes: "Pick Dome Fossil on Mt. Moon B2F (exclusive choice vs. Helix)" },
+      { location: 'Cinnabar Island Cinnabar Lab', area: 'cinnabar-island-cinnabar-lab', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Revived from Dome Fossil at Cinnabar Lab" },
     ],
   },
   140: { // Kabuto (Helix Fossil)
     obtainMethods: [
-      { location: 'Mt. Moon (B2F)', area: 'mt-moon-b2f', method: 'pick-up', methodDisplay: 'Item Pick-up', versions: 'both', notes: "Pick Helix Fossil on Mt. Moon B2F (exclusive choice vs. Dome)" },
-      { location: 'Cinnabar Island Lab', area: 'cinnabar-island', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Revived from Helix Fossil at Cinnabar Lab" },
+      { location: 'Mt Moon (B2F)', area: 'mt-moon-b2f', method: 'pick-up', methodDisplay: 'Item Pick-up', versions: 'both', notes: "Pick Helix Fossil on Mt. Moon B2F (exclusive choice vs. Dome)" },
+      { location: 'Cinnabar Island Cinnabar Lab', area: 'cinnabar-island-cinnabar-lab', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Revived from Helix Fossil at Cinnabar Lab" },
     ],
   },
   142: { // Aerodactyl (Old Amber)
     obtainMethods: [
       { location: 'Pewter City Museum', area: 'pewter-city', method: 'pick-up', methodDisplay: 'Item Pick-up', versions: 'both', notes: "Receive Old Amber from scientist in Pewter Museum (back room)" },
-      { location: 'Cinnabar Island Lab', area: 'cinnabar-island', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Revived from Old Amber at Cinnabar Lab" },
+      { location: 'Cinnabar Island Cinnabar Lab', area: 'cinnabar-island-cinnabar-lab', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Revived from Old Amber at Cinnabar Lab" },
     ],
   },
 
@@ -42,7 +42,7 @@ export const manualData = {
     // No special manual entry needed; PokeAPI covers wild encounters
   },
   133: { // Eevee
-    obtainMethods: [{ location: 'Celadon City', area: 'celadon-city', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Received from on top floor of Celadon Mansion" }],
+    obtainMethods: [{ location: 'Celadon City Celadon Mansion', area: 'celadon-city-celadon-mansion', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Received from on top floor of Celadon Mansion" }],
   },
   106: { // Hitmonlee
     obtainMethods: [{ location: 'Saffron City', area: 'saffron-city', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Choose Hitmonlee from Karate Master in Fighting Dojo (exclusive vs. Hitmonchan)" }],
@@ -51,7 +51,7 @@ export const manualData = {
     obtainMethods: [{ location: 'Saffron City', area: 'saffron-city', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Choose Hitmonchan from Karate Master in Fighting Dojo (exclusive vs. Hitmonlee)" }],
   },
   131: { // Lapras
-    obtainMethods: [{ location: 'Silph Co.', area: 'saffron-city', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Given by Silph Co. employee on 7F after defeating Giovanni" }],
+    obtainMethods: [{ location: 'Saffron City Silph Co (7F)', area: 'saffron-city-silph-co-7f', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Given by Silph Co. employee on 7F after defeating Giovanni" }],
   },
   137: { // Porygon
     obtainMethods: [{ location: 'Celadon City', area: 'celadon-city', method: 'gift', methodDisplay: 'Gift', versions: 'both', notes: "Purchased for 9,999 coins at Celadon Game Corner Prize Corner" }],
@@ -77,16 +77,16 @@ export const manualData = {
   // --- LEGENDARY / STATIC ENCOUNTERS ---
   // Note: PokeAPI covers most of these as wild encounters, but adding notes for clarity
   144: { // Articuno
-    obtainMethods: [{ location: 'Seafoam Islands', area: 'seafoam-islands', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.50 — found in Seafoam Islands B4F; requires Strength & Surf" }],
+    obtainMethods: [{ location: 'Seafoam Islands (B4F)', area: 'seafoam-islands-b4f', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.50 — found in Seafoam Islands B4F; requires Strength & Surf" }],
   },
   145: { // Zapdos
-    obtainMethods: [{ location: 'Power Plant', area: 'power-plant', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.50 — found deep in Power Plant on Route 10; requires Surf" }],
+    obtainMethods: [{ location: 'Power Plant', area: 'power-plant-area', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.50 — found deep in Power Plant on Route 10; requires Surf" }],
   },
   146: { // Moltres
-    obtainMethods: [{ location: 'Mt. Ember', area: 'one-island', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.50 — found at top of Mt. Ember on One Island (post-game)" }],
+    obtainMethods: [{ location: 'Mt Ember Summit', area: 'mt-ember-summit', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.50 — found at top of Mt. Ember on One Island (post-game)" }],
   },
   150: { // Mewtwo
-    obtainMethods: [{ location: 'Cerulean Cave', area: 'cerulean-city', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.70 — found in Cerulean Cave B1F; requires all 8 badges" }],
+    obtainMethods: [{ location: 'Cerulean Cave (B1F)', area: 'cerulean-cave-b1f', method: 'static', methodDisplay: 'Static', versions: 'both', notes: "Lv.70 — found in Cerulean Cave B1F; requires all 8 badges" }],
   },
   151: { // Mew
     obtainMethods: [{ location: 'Nintendo Event', area: 'special-event', method: 'gift', methodDisplay: 'Event', versions: 'both', notes: "Obtained via Nintendo Mystery Gift event (no longer available)" }],

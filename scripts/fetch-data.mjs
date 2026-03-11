@@ -40,7 +40,9 @@ function getVersionExclusivity(id) {
 
 function prettifyLocation(name) {
   return name
+    .replace(/^kanto-/, '')
     .replace(/-area$/, '')
+    .replace(/-b(\d+)f$/, (_, n) => ` (B${n}F)`)
     .replace(/-(\d+)f$/, (_, n) => ` (${n}F)`)
     .split('-')
     .map(w => w.charAt(0).toUpperCase() + w.slice(1))
@@ -56,8 +58,13 @@ const METHOD_DISPLAY = {
   'rock-smash': 'Rock Smash',
   headbutt: 'Headbutt',
   gift: 'Gift',
+  'gift-egg': 'Gift (Egg)',
   trade: 'Trade',
   static: 'Static',
+  'only-one': 'Static',
+  pokeflute: 'Poké Flute',
+  'roaming-grass': 'Roaming',
+  'colosseum-bonus-disc-jpn': 'Event',
 }
 
 async function fetchPokemon(id, total) {
@@ -113,17 +120,30 @@ async function fetchPokemon(id, total) {
   const manual = manualData[id]
   if (manual?.obtainMethods) {
     for (const m of manual.obtainMethods) {
-      encounters.push({
-        area: m.area,
-        location: m.location,
-        method: m.method,
-        methodDisplay: m.methodDisplay,
-        minLevel: m.level || null,
-        maxLevel: m.level || null,
-        chance: null,
-        versions: m.versions,
-        notes: m.notes || null,
-      })
+      // If PokeAPI already returned an encounter for the same area+method, just
+      // attach the manual notes rather than creating a duplicate entry.
+      // 'only-one' (PokeAPI) and 'static' (manual) are treated as equivalent.
+      const normalise = method => (method === 'only-one' ? 'static' : method)
+      const existing = encounters.find(
+        e =>
+          (e.area === m.area || e.area.startsWith(m.area + '-')) &&
+          normalise(e.method) === normalise(m.method),
+      )
+      if (existing) {
+        if (m.notes && !existing.notes) existing.notes = m.notes
+      } else {
+        encounters.push({
+          area: m.area,
+          location: m.location,
+          method: m.method,
+          methodDisplay: m.methodDisplay,
+          minLevel: m.level || null,
+          maxLevel: m.level || null,
+          chance: null,
+          versions: m.versions,
+          notes: m.notes || null,
+        })
+      }
     }
   }
 
