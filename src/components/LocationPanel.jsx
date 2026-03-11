@@ -165,7 +165,7 @@ export function LocationPanel() {
                       <button
                         key={i}
                         onClick={() => selectPokemon(item)}
-                        className={`flex flex-col items-center rounded-lg p-1 transition-colors ${
+                        className={`flex flex-col items-center rounded-lg p-1 w-14 transition-colors ${
                           item === p.id
                             ? 'bg-blue-100 dark:bg-blue-900/60 ring-1 ring-blue-400'
                             : 'hover:bg-gray-100 dark:hover:bg-gray-700'
@@ -175,7 +175,7 @@ export function LocationPanel() {
                           ? <img src={getPokemon(item).sprite} alt="" className="w-10 h-10 object-contain" style={{ imageRendering: 'pixelated' }} />
                           : <div className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-[10px] text-gray-400">?</div>
                         }
-                        <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 max-w-[40px] truncate">
+                        <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 w-full text-center break-words">
                           {getPokemon(item)?.name || `#${item}`}
                         </span>
                       </button>
@@ -195,7 +195,7 @@ export function LocationPanel() {
                   {/* Base form */}
                   <button
                     onClick={() => selectPokemon(chain.baseId)}
-                    className={`flex flex-col items-center rounded-lg p-1 shrink-0 transition-colors ${
+                    className={`flex flex-col items-center rounded-lg p-1 w-14 shrink-0 transition-colors ${
                       chain.baseId === p.id
                         ? 'bg-blue-100 dark:bg-blue-900/60 ring-1 ring-blue-400'
                         : 'hover:bg-gray-100 dark:hover:bg-gray-700'
@@ -204,7 +204,7 @@ export function LocationPanel() {
                     {getPokemon(chain.baseId)?.sprite && (
                       <img src={getPokemon(chain.baseId).sprite} alt="" className="w-10 h-10 object-contain" style={{ imageRendering: 'pixelated' }} />
                     )}
-                    <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 max-w-[40px] truncate">
+                    <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 w-full text-center break-words">
                       {getPokemon(chain.baseId)?.name || `#${chain.baseId}`}
                     </span>
                   </button>
@@ -220,7 +220,7 @@ export function LocationPanel() {
                         </div>
                         <button
                           onClick={() => selectPokemon(branch.id)}
-                          className={`flex flex-col items-center rounded-lg p-1 transition-colors ${
+                          className={`flex flex-col items-center rounded-lg p-1 w-14 transition-colors ${
                             branch.id === p.id
                               ? 'bg-blue-100 dark:bg-blue-900/60 ring-1 ring-blue-400'
                               : 'hover:bg-gray-100 dark:hover:bg-gray-700'
@@ -229,7 +229,7 @@ export function LocationPanel() {
                           {getPokemon(branch.id)?.sprite && (
                             <img src={getPokemon(branch.id).sprite} alt="" className="w-10 h-10 object-contain" style={{ imageRendering: 'pixelated' }} />
                           )}
-                          <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 max-w-[40px] truncate">
+                          <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 w-full text-center break-words">
                             {getPokemon(branch.id)?.name || `#${branch.id}`}
                           </span>
                         </button>
