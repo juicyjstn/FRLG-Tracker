@@ -171,14 +171,14 @@ export function LocationPanel() {
                           ? <img src={getPokemon(item).sprite} alt="" className="w-10 h-10 object-contain" style={{ imageRendering: 'pixelated' }} />
                           : <div className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-[10px] text-gray-400">?</div>
                         }
-                        <span className="text-[9px] capitalize text-gray-500 dark:text-gray-400 leading-tight mt-0.5 max-w-[40px] truncate">
+                        <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 max-w-[40px] truncate">
                           {getPokemon(item)?.name || `#${item}`}
                         </span>
                       </button>
                     ) : (
                       <div key={i} className="flex flex-col items-center justify-center px-0.5 pt-2">
-                        <span className="text-gray-300 dark:text-gray-600 text-sm leading-none">›</span>
-                        <span className="text-[8px] text-gray-400 dark:text-gray-500 text-center leading-tight whitespace-nowrap max-w-[48px]">
+                        <span className="text-gray-300 dark:text-gray-300 text-sm leading-none">›</span>
+                        <span className="text-[8px] text-gray-400 dark:text-white text-center leading-tight whitespace-nowrap max-w-[48px]">
                           {evoStepLabel(item)}
                         </span>
                       </div>
@@ -200,7 +200,7 @@ export function LocationPanel() {
                     {getPokemon(chain.baseId)?.sprite && (
                       <img src={getPokemon(chain.baseId).sprite} alt="" className="w-10 h-10 object-contain" style={{ imageRendering: 'pixelated' }} />
                     )}
-                    <span className="text-[9px] capitalize text-gray-500 dark:text-gray-400 leading-tight mt-0.5 max-w-[40px] truncate">
+                    <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 max-w-[40px] truncate">
                       {getPokemon(chain.baseId)?.name || `#${chain.baseId}`}
                     </span>
                   </button>
@@ -209,8 +209,8 @@ export function LocationPanel() {
                     {chain.branches.map((branch, i) => (
                       <div key={i} className="flex items-center gap-1">
                         <div className="flex flex-col items-center">
-                          <span className="text-gray-300 dark:text-gray-600 text-xs">›</span>
-                          <span className="text-[8px] text-gray-400 dark:text-gray-500 whitespace-nowrap">
+                          <span className="text-gray-300 dark:text-gray-300 text-xs">›</span>
+                          <span className="text-[8px] text-gray-400 dark:text-white whitespace-nowrap">
                             {evoStepLabel(branch.evoData)}
                           </span>
                         </div>
@@ -225,7 +225,7 @@ export function LocationPanel() {
                           {getPokemon(branch.id)?.sprite && (
                             <img src={getPokemon(branch.id).sprite} alt="" className="w-10 h-10 object-contain" style={{ imageRendering: 'pixelated' }} />
                           )}
-                          <span className="text-[9px] capitalize text-gray-500 dark:text-gray-400 leading-tight mt-0.5 max-w-[40px] truncate">
+                          <span className="text-[9px] capitalize text-gray-500 dark:text-white leading-tight mt-0.5 max-w-[40px] truncate">
                             {getPokemon(branch.id)?.name || `#${branch.id}`}
                           </span>
                         </button>
