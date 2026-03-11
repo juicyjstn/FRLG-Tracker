@@ -1,5 +1,6 @@
 import { usePokemonStore } from '../store/usePokemonStore'
 import { TYPE_COLORS, TYPE_TEXT } from './typeColors'
+import { evolutionData, getEvolutionLabel } from '../data/evolutions'
 
 const METHOD_ICON = {
   walk: '🦶',
@@ -102,9 +103,20 @@ export function LocationPanel() {
 
       {/* Location list */}
       <div className="flex-1 overflow-y-auto p-3">
-        {locationGroups.length === 0 ? (
+        {/* Evolution info */}
+        {evolutionData[p.id] && (
+          <div className="mb-3 rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 flex items-center gap-2">
+            <span className="text-lg">🔄</span>
+            <div>
+              <p className="text-xs font-semibold text-blue-700">Obtained by Evolution</p>
+              <p className="text-xs text-blue-600 mt-0.5">{getEvolutionLabel(evolutionData[p.id])}</p>
+            </div>
+          </div>
+        )}
+
+        {locationGroups.length === 0 && !evolutionData[p.id] ? (
           <p className="text-sm text-gray-400 text-center mt-8">No encounter data found for FRLG.</p>
-        ) : (
+        ) : locationGroups.length === 0 ? null : (
           <div className="space-y-3">
             {locationGroups.map(([location, encs]) => (
               <div key={location} className="rounded-lg border border-gray-100 overflow-hidden">
