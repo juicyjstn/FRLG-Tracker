@@ -17,11 +17,9 @@ export const TYPE_COLORS = {
   dragon: 'bg-indigo-700',
   dark: 'bg-gray-700',
   steel: 'bg-gray-500',
-  fairy: 'bg-pink-300',
 }
 
 export const TYPE_TEXT = {
   electric: 'text-gray-800',
   ice: 'text-gray-800',
-  fairy: 'text-gray-800',
 }

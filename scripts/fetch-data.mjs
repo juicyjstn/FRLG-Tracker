@@ -12,7 +12,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { manualData, versionExclusives, nationalEvolutionIds } from '../src/data/frlg-manual.js'
+import { manualData, versionExclusives, nationalEvolutionIds, gen3TypeOverrides } from '../src/data/frlg-manual.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUTPUT_PATH = path.join(__dirname, '../src/data/frlg-pokemon.json')
@@ -72,7 +72,7 @@ async function fetchPokemon(id, total) {
     data.sprites?.front_default ||
     null
 
-  const types = data.types.map(t => t.type.name)
+  const types = gen3TypeOverrides[id] ?? data.types.map(t => t.type.name)
 
   // Build encounter map, merging FR+LG entries for the same area+method
   const encountersByArea = {}

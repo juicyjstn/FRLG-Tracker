@@ -1910,7 +1910,7 @@
       "id": 35,
       "name": "clefairy",
       "types": [
-        "fairy"
+        "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/35.png",
       "exclusivity": "both",
@@ -1942,7 +1942,7 @@
       "id": 36,
       "name": "clefable",
       "types": [
-        "fairy"
+        "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/36.png",
       "exclusivity": "both",
@@ -2036,8 +2036,7 @@
       "id": 39,
       "name": "jigglypuff",
       "types": [
-        "normal",
-        "fairy"
+        "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
       "exclusivity": "both",
@@ -2059,8 +2058,7 @@
       "id": 40,
       "name": "wigglytuff",
       "types": [
-        "normal",
-        "fairy"
+        "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/40.png",
       "exclusivity": "both",
@@ -11298,8 +11296,7 @@
       "id": 122,
       "name": "mr-mime",
       "types": [
-        "psychic",
-        "fairy"
+        "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/122.png",
       "exclusivity": "both",
@@ -13776,7 +13773,7 @@
       "id": 175,
       "name": "togepi",
       "types": [
-        "fairy"
+        "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
       "exclusivity": "both",
@@ -13798,7 +13795,7 @@
       "id": 176,
       "name": "togetic",
       "types": [
-        "fairy",
+        "normal",
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
@@ -13889,8 +13886,7 @@
       "id": 183,
       "name": "marill",
       "types": [
-        "water",
-        "fairy"
+        "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
       "exclusivity": "both",
@@ -13942,8 +13938,7 @@
       "id": 184,
       "name": "azumarill",
       "types": [
-        "water",
-        "fairy"
+        "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
       "exclusivity": "both",

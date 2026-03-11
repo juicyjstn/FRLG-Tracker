@@ -117,6 +117,20 @@ export const nationalEvolutionIds = [
   248, // Tyranitar   ← Pupitar (#247)
 ]
 
+// Gen 3 type corrections: PokeAPI returns current (post-Gen-6) types.
+// Fairy type didn't exist in Gen 3, so these Pokémon had different types in FRLG.
+export const gen3TypeOverrides = {
+  35:  ['normal'],          // Clefairy:   Fairy → Normal
+  36:  ['normal'],          // Clefable:   Fairy → Normal
+  39:  ['normal'],          // Jigglypuff: Normal/Fairy → Normal
+  40:  ['normal'],          // Wigglytuff: Normal/Fairy → Normal
+  122: ['psychic'],         // Mr. Mime:   Psychic/Fairy → Psychic
+  175: ['normal'],          // Togepi:     Fairy → Normal
+  176: ['normal', 'flying'],// Togetic:    Fairy/Flying → Normal/Flying
+  183: ['water'],           // Marill:     Water/Fairy → Water
+  184: ['water'],           // Azumarill:  Water/Fairy → Water
+}
+
 // Version-exclusive Pokémon in FRLG (wild encounters)
 // This supplements PokeAPI data which may not always mark exclusivity clearly.
 export const versionExclusives = {
