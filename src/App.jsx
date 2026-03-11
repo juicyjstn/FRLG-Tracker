@@ -6,7 +6,7 @@ import { LocationPanel } from './components/LocationPanel'
 import pokedexData from './data/frlg-pokemon.json'
 
 export default function App() {
-  const { loadData, caughtIds, loaded, selectedId, clearSelection, getFiltered, getActivePokemon, dexView, darkMode, toggleDarkMode } = usePokemonStore()
+  const { loadData, caughtIds, loaded, selectedId, clearSelection, getFiltered, getActivePokemon, dexView, darkMode, toggleDarkMode, filterVersion } = usePokemonStore()
 
   useEffect(() => {
     loadData(pokedexData)
@@ -35,12 +35,25 @@ export default function App() {
   const headerBg = dexView === 'national' ? 'bg-indigo-700' : 'bg-red-600'
   const headerBgBar = dexView === 'national' ? 'bg-indigo-900' : 'bg-red-800'
   const headerSubtext = dexView === 'national' ? 'text-indigo-200' : 'text-red-200'
+  const coverImage = filterVersion === 'firered'
+    ? '/cover-firered.jpg'
+    : filterVersion === 'leafgreen'
+      ? '/cover-leafgreen.jpg'
+      : '/cover-both.jpg'
 
   return (
     <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors ${selectedId ? 'pr-80' : ''}`}>
       {/* App header */}
       <header className={`${headerBg} text-white px-4 py-3 flex items-center gap-3 shadow-md`}>
-        <span className="text-2xl">{dexView === 'national' ? '🌍' : '🔴'}</span>
+        {dexView === 'national' ? (
+          <span className="text-2xl shrink-0">🌍</span>
+        ) : (
+          <img
+            src={coverImage}
+            alt="Game cover"
+            className="h-10 w-auto rounded shadow-md object-cover shrink-0 transition-all duration-300"
+          />
+        )}
         <div>
           <h1 className="text-lg font-bold leading-tight">FireRed / LeafGreen Tracker</h1>
           <p className={`${headerSubtext} text-xs`}>
