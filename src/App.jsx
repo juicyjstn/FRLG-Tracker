@@ -46,15 +46,11 @@ export default function App() {
     <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors ${selectedId ? 'pr-80' : ''}`}>
       {/* App header */}
       <header className={`${headerBg} text-white px-4 py-3 flex items-center gap-3 shadow-md`}>
-        {dexView === 'national' ? (
-          <span className="text-2xl shrink-0">🌍</span>
-        ) : (
-          <img
-            src={coverImage}
-            alt="Game cover"
-            className="h-10 w-auto rounded shadow-md object-cover shrink-0 transition-all duration-300"
-          />
-        )}
+        <img
+          src={coverImage}
+          alt="Game cover"
+          className="h-10 w-auto rounded shadow-md object-cover shrink-0 transition-all duration-300"
+        />
         <div>
           <h1 className="text-lg font-bold leading-tight">FireRed / LeafGreen Tracker</h1>
           <p className={`${headerSubtext} text-xs`}>
