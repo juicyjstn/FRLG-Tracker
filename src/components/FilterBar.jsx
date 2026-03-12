@@ -100,6 +100,7 @@ export function FilterBar({ totalCount, filteredCount }) {
             <option value="id">Sort: # (Dex)</option>
             <option value="name">Sort: Name</option>
             <option value="type">Sort: Type</option>
+            <option value="story">Sort: Story Order</option>
           </select>
 
           <div className="ml-auto text-sm text-gray-500 dark:text-gray-400">
